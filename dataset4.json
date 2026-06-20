@@ -1,0 +1,159 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "qeight": "85",
+      "goal": "Muscle gain and strength improvement",
+      "restrictions": "Lactose intolerant"
+    },
+    "solution_criteria": [
+      "Meal plan covers exactly one full day with 4-5 meals",
+      "High protein intake (minimum 1.7g per kg body weight) distributed across meals",
+      "Pre- and post-workout meals included with appropriate timing",
+      "All meals accommodate lactose intolerance restriction"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-training athlete (weightlifter) needing high protein intake and specific meal timing around workouts"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "qeight": "82",
+      "goal": "Maximize performance for 5am high-intensity training session",
+      "restrictions": "Vegetarian, no dairy"
+    },
+    "solution_criteria": [
+      "Meal plan spans one full day with breakfast scheduled 1-2 hours before 5am training",
+      "Pre-workout meal is light, carbohydrate-focused, and easy to digest",
+      "All meals align with vegetarian and dairy-free restrictions",
+      "Plan is compact and concise (under 400 tokens)"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an early morning athlete (5am training session) requiring breakfast-focused meal planning with pre-workout timing"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "qeight": "72",
+      "goal": "Marathon preparation - high-intensity endurance training",
+      "restrictions": "vegan, gluten-free"
+    },
+    "solution_criteria": [
+      "Meal plan accommodates both vegan and gluten-free restrictions throughout all meals",
+      "Plan is compact and covers one full day with breakfast, lunch, dinner, and snacks",
+      "Meals support endurance athlete energy needs with adequate carbohydrates and protein"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete having multiple dietary restrictions (vegan + gluten-free) competing in an endurance sport"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "qeight": "75",
+      "goal": "Cut 3kg to reach 72kg weight class while maintaining strength and performance for boxing competition in 5 days",
+      "restrictions": "No shellfish, no refined sugar"
+    },
+    "solution_criteria": [
+      "Meal plan totals approximately 1,800-2,000 calories to create moderate deficit while preserving muscle",
+      "Includes high protein content (minimum 120g) distributed across meals to support recovery",
+      "Avoids shellfish and refined sugar per restrictions",
+      "Provides 4-5 eating occasions to maintain energy for training without large meals"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport that has strict weight class requirements (boxer/wrestler) requiring caloric deficit while maintaining performance"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "qeight": "72 kg",
+      "goal": "Build muscle and improve athletic performance for competitive basketball",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with breakfast, lunch, dinner, and snacks",
+      "Provides adequate protein (minimum 1.6g per kg body weight) to support muscle growth in teenage athletes",
+      "Includes calorie surplus appropriate for teenage athlete in growth phase (approximately 2800-3200 calories)",
+      "Respects vegetarian diet and nut-free restrictions throughout all meals"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a teenage athlete still in growth phase requiring additional calories and nutrients for development plus performance"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "qeight": "75 kg",
+      "goal": "Evening competition performance with quick recovery and minimal sleep disruption",
+      "restrictions": "Lactose intolerant, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan spans full day with 4-5 eating occasions",
+      "Pre-competition meal (3-4 hours before evening event) is easily digestible and carbohydrate-focused",
+      "Post-competition meal is light, low-fat, and supports recovery without causing sleep issues",
+      "All meals respect lactose-free and nut-free restrictions"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a late-night athlete (evening competition) needing digestive consideration and energy management before sleep"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "qeight": "75",
+      "goal": "Marathon training - carbohydrate loading for endurance performance",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 4000+ calories with carbohydrates comprising 55-65% of total intake",
+      "Includes 4-5 meals/snacks distributed throughout the day",
+      "Emphasizes high-carbohydrate foods (pasta, rice, oats, fruits, bread) suitable for endurance athlete"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 4000+ calories with emphasis on carbohydrate loading"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "qeight": "78",
+      "goal": "Optimize energy and recovery for soccer training and match play",
+      "restrictions": "Vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 meals plus pre/post-activity nutrition appropriate for mixed-intensity soccer",
+      "Macronutrient distribution balances carbohydrates (45-55%), protein (1.6-2.0g/kg), and fats (20-30%) for soccer demands",
+      "All meals and snacks accommodate vegetarian restrictions",
+      "Plan is presented in compact, easy-to-follow format suitable for quick reference"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport combining multiple energy systems (soccer) requiring balanced macros for mixed intensity throughout the day"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "qeight": "75 kg",
+      "goal": "Maintain performance while managing mild gastric sensitivity",
+      "restrictions": "Avoid high-fat, high-fiber, and spicy foods; prefer smaller, frequent meals; exclude dairy and caffeine"
+    },
+    "solution_criteria": [
+      "Plan includes 4-5 small meals/snacks distributed throughout the day to manage gastric issues",
+      "All foods listed are low-fat, low-fiber, and non-spicy, with no dairy or caffeine",
+      "Meal plan provides adequate protein and carbohydrates for athletic performance while respecting restrictions",
+      "Timing between meals is practical (2-3 hours apart) to minimize gastric discomfort"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete managing a common injury or condition (mild gastric issues) affecting food choices and timing"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "qeight": "75 kg",
+      "goal": "Build muscle mass with high protein intake",
+      "restrictions": "Vegetarian, no access to microwave or stove"
+    },
+    "solution_criteria": [
+      "Meal plan includes only no-cook or minimal-prep foods suitable for dorm living",
+      "Provides adequate protein intake aligned with muscle-building goal while respecting vegetarian restriction",
+      "Covers all meals (breakfast, lunch, dinner, snacks) in a single day format"
+    ],
+    "task_description": "Write a compact ,concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with minimal cooking facilities/resources (college dorm setting) requiring simple, no-cook or minimal-prep options"
+  }
+]
