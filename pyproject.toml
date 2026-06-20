@@ -1,0 +1,12 @@
+[project]
+name = "claude-usage"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.111.0",
+    "dotenv>=0.9.9",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+]

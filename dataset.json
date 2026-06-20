@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a regular expression to validate an AWS S3 bucket name. S3 bucket names must be between 3 and 63 characters, contain only lowercase letters, numbers, hyphens, and periods, start and end with a letter or number, and cannot contain consecutive periods or hyphens followed by a period."
+  },
+  {
+    "task": "Create a JSON object representing an AWS Lambda function configuration with the following properties: function name 'DataProcessor', runtime 'python3.11', handler 'index.handler', timeout of 60 seconds, memory of 256 MB, and environment variables for AWS_REGION set to 'us-east-1' and LOG_LEVEL set to 'INFO'."
+  },
+  {
+    "task": "Write a Python function that takes an AWS CloudWatch log event and extracts the timestamp and message fields, returning them as a dictionary with keys 'timestamp' and 'message'. The log event is a JSON string with the structure: {\"id\":\"...\",\"timestamp\":1234567890,\"message\":\"...\"}"
+  }
+]
